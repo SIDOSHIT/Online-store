@@ -1,0 +1,178 @@
+.top-cart {
+  height: 400px;
+  background-image: url(img/topcart.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heading-big {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 70px;
+  margin-top: 127px;
+  color: #ffffff;
+}
+
+.cart {
+  display: grid;
+  gap: 32px;
+  margin-top: 54px;
+  grid-template-columns: repeat(12, 1fr);
+
+  &__name-box {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 0.5px solid #cacdd8;
+    padding-top: 25px;
+    padding-bottom: 32px;
+  }
+
+  &__item input {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 210%;
+    color: #000000;
+    background: #f7f6f6;
+    border-radius: 6px;
+    border: none;
+    width: 71px;
+    height: 51px;
+  }
+
+  &__left {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__info {
+    width: 276px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+
+  &__desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+  }
+
+  &__price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #050505;
+  }
+
+  &__link-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  &__link-box a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 210%;
+    text-decoration-line: underline;
+    color: #000000;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f7f6f6;
+    border-radius: 20px;
+    height: 556px;
+    grid-column: span 4;
+    padding-top: 42px;
+  }
+  &__content {
+    grid-column: span 8;
+  }
+
+  &__form-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    padding-bottom: 35px;
+  }
+
+  &__form-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__form-input {
+    border: none;
+    border-bottom: 1px solid #cacdd8;
+    width: 288px;
+    background: #f7f6f6;
+    outline: none;
+    background-color: transparent;
+    margin-top: 41px;
+  }
+
+  &__form-input::placeholder {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+  &__form-price {
+    margin-top: 64px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+
+  &__form-button {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 18px;
+    width: 290px;
+    height: 41px;
+    background: #f7f6f6;
+    border-radius: 20px;
+    border: 1px solid #040404;
+  }
+}
