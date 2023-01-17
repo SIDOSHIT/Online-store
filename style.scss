@@ -94,7 +94,7 @@ header {
 }
 
 .title {
-  width: 792px;
+  max-width: 792px;
   margin-top: 63px;
   margin-bottom: 16px;
   font-style: normal;
@@ -240,29 +240,21 @@ header {
   display: flex;
   background: #f7f6f6;
   align-items: center;
-  justify-content: space-between;
+  gap: 212px;
 }
 
-.footer__logo {
-  box-sizing: border-box;
-  /* width: 265px; */
-}
+
 
 .footer__content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 911px;
-  gap: 86px;
+  gap: 189px;
+  padding-top: 34px;
   padding-bottom: 17px;
 }
 
-.footer__info {
+.footer-box {
   display: flex;
-  box-sizing: border-box;
-  width: 423px;
-  padding-top: 32px;
-  gap: 73px;
+  gap: 129px;
 }
 
 .footer__item {
@@ -273,7 +265,6 @@ header {
 
 .footer__icons {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 20px;
 }
@@ -305,13 +296,11 @@ header {
 }
 
 .form__text {
-  margin-top: 32px;
   margin-bottom: 16px;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 12px;
+  line-height: 15px;
   color: #000000;
 }
 
@@ -319,7 +308,6 @@ header {
   margin-bottom: 12px;
   box-sizing: border-box;
   outline: none;
-  width: 275px;
   height: 46px;
   background: #ffffff;
   border: 1px solid #c4c4c4;
@@ -338,10 +326,7 @@ header {
 }
 
 .form__button {
-  box-sizing: border-box;
   height: 46px;
-  width: 275px;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -446,3 +431,4 @@ header {
 }
 
 @import "cart";
+@import "tablet";

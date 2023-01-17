@@ -69,6 +69,8 @@
           </div>
           <input type="number" min="1" value="1" />
         </div>
+        <button class="cart__form-button-small">Очистить корзину</button>
+        <button class="cart__form-button-small black_btn">Продолжить покупки</button>
       </div>
       <div class="cart__form">
         <h3 class="cart__form-title">Оформление заказа</h3>
@@ -144,45 +146,43 @@
       <a href="./catalog.html" class="bottom__link">Перейти в каталог</a>
     </div>
 
-    <footer class="footer center">
-      <a href="./index.html" class="footer__logo"
-        ><img src="./img/footer_logo.svg" alt="Логотип"
-      /></a>
+     <footer class="footer center">
+      <div class="footer__logo">
+        <a href="./index.html" class="footer__logo"
+          ><img src="./img/footer_logo.svg" alt="Логотип"
+        /></a>
+      </div>
+
       <section class="footer__content">
-        <div class="footer__content">
-          <div class="footer__info">
-            <nav class="footer__item">
-              <h4 class="footer__heading">Меню</h4>
-              <a class="footer__link link__decoration" href="./index.html"
-                >Главная</a
-              >
-              <a class="footer__link link__decoration" href="./catalog.html"
-                >Каталог</a
-              >
-              <a class="footer__link link__decoration" href="#">Корзина</a>
-            </nav>
-            <div class="footer__item">
-              <h4 class="footer__heading">Контакты</h4>
-              <a class="footer__link" href="#">+7 908 800 80 80</a>
-              <a class="footer__link" href="#">help@interier.com</a>
-              <div class="footer__icons">
-                <a href="#"><img src="./img/inst.svg" alt="inst" /></a>
-                <a href="#"><img src="./img/twitter.svg" alt="twitter" /></a>
-                <a href="#"><img src="./img/facebook.svg" alt="facebook" /></a>
-              </div>
+        <div class="footer-box">
+          <nav class="footer__item">
+            <h4 class="footer__heading">Меню</h4>
+            <a class="footer__link link__decoration" href="./index.html"
+              >Главная</a
+            >
+            <a class="footer__link link__decoration" href="./catalog.html"
+              >Каталог</a
+            >
+            <a class="footer__link link__decoration" href="#">Корзина</a>
+          </nav>
+
+          <div class="footer__item">
+            <h4 class="footer__heading">Контакты</h4>
+            <a class="footer__link" href="#">+7 908 800 80 80</a>
+            <a class="footer__link" href="#">help@interier.com</a>
+            <div class="footer__icons">
+              <a href="#"><img src="./img/inst.svg" alt="inst" /></a>
+              <a href="#"><img src="./img/twitter.svg" alt="twitter" /></a>
+              <a href="#"><img src="./img/facebook.svg" alt="facebook" /></a>
             </div>
           </div>
-
-          <form class="footer__form" action="#">
-            <p class="form__text">Получайте наши новости и обновления</p>
-            <input
-              class="form__email"
-              type="email"
-              placeholder="Email Address"
-            />
-            <button class="form__button" type="submit">Подписаться</button>
-          </form>
         </div>
+
+        <form class="footer__form" action="#">
+          <p class="form__text">Получайте наши новости и обновления</p>
+          <input class="form__email" type="email" placeholder="Email Address" />
+          <button class="form__button" type="submit">Подписаться</button>
+        </form>
       </section>
     </footer>
   </body>

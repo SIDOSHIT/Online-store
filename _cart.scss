@@ -135,6 +135,9 @@
   }
 
   &__form-input {
+    box-sizing: border-box;
+    padding-left: 0px;
+    padding-right: 25px;
     border: none;
     border-bottom: 1px solid #cacdd8;
     width: 288px;
@@ -159,6 +162,21 @@
     font-size: 24px;
     line-height: 29px;
     color: #000000;
+  }
+
+  &__form-button-small {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 18px;
+    width: 200px;
+    height: 37px;
+    background: #f7f6f6;
+    border-radius: 20px;
+    border: 1px solid #040404;
   }
 
   &__form-button {
