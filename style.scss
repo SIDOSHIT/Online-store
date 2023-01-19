@@ -81,6 +81,11 @@ header {
   gap: 32px;
 }
 
+.menu-mob {
+  display: none;
+  
+}
+
 .menu__link {
   font-style: normal;
   font-weight: 400;
@@ -192,7 +197,6 @@ header {
 }
 
 .product__desc {
-  width: 370px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -432,3 +436,4 @@ header {
 
 @import "cart";
 @import "tablet";
+@import "mobile";
