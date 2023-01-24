@@ -64,6 +64,7 @@
   }
 
   .product {
+    flex-grow: 1;
     width: 342px;
   }
 
@@ -124,8 +125,11 @@
     }
   }
 
-
   .product {
     width: 349px;
+  }
+
+  .footer {
+    justify-content: center;
   }
 }

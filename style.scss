@@ -37,7 +37,13 @@ a {
   color: #ffffff;
 }
 
+.link:hover {
+  color: #888888;
+  text-decoration: none;
+}
+
 .top__link {
+  transition: all 0.3s;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -83,7 +89,6 @@ header {
 
 .menu-mob {
   display: none;
-  
 }
 
 .menu__link {
@@ -180,6 +185,7 @@ header {
 
 .product {
   width: 379px;
+  row-gap: 48px;
 }
 
 .product__img {
@@ -233,6 +239,7 @@ header {
 }
 
 .bottom__link {
+  transition: all 0.3s;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -246,8 +253,6 @@ header {
   align-items: center;
   gap: 212px;
 }
-
-
 
 .footer__content {
   display: flex;
@@ -271,6 +276,15 @@ header {
   display: flex;
   align-items: center;
   gap: 20px;
+  transition: all 0.3s;
+}
+
+.footer__social{
+  transition: all 0.3s;
+}
+
+.footer__social:hover {
+  fill: #000000;
 }
 
 .footer__form {
@@ -329,7 +343,13 @@ header {
   color: #c4c4c4;
 }
 
+.button:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
 .form__button {
+  transition: all 1s;
   height: 46px;
   font-style: normal;
   font-weight: 400;
@@ -390,7 +410,7 @@ header {
 .product-content-catalog {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+  row-gap: 32px;
   justify-content: space-between;
 }
 

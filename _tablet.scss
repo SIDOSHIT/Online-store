@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .center {
     padding-left: calc(50% - 786px / 2);
     padding-right: calc(50% - 786px / 2);
@@ -29,16 +29,20 @@
 
   // каталог
 
-.black_btn {
-    color: #FFFFFF;
+  .black_btn {
+    color: #ffffff;
     background: #000000;
-}
+  }
 
   .cart__content {
     grid-column: span 12;
   }
   .cart__form {
     grid-column: span 6;
+  }
+
+  .product-content-catalog {
+   gap: 0px;
   }
 }
 
@@ -52,11 +56,11 @@
     width: 344px;
   }
 
-.footer__content {
+  .footer__content {
     gap: 150px;
-}
+  }
 
- .footer-box {
+  .footer-box {
     gap: 98px;
   }
 }

@@ -165,6 +165,7 @@
   }
 
   &__form-button-small {
+    transition: all 0.3s;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
@@ -180,6 +181,7 @@
   }
 
   &__form-button {
+    transition: all 0.3s;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
