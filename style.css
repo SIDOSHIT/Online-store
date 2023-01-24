@@ -450,6 +450,7 @@ header {
 
 .select select {
   display: block;
+  transition: all 0.3s;
   background: none;
   padding-left: 14px;
   padding-right: 22px;
@@ -468,6 +469,10 @@ header {
   border-radius: 20px;
 }
 
+.select select:hover {
+  box-shadow: 0px 0px 5px #000000;
+}
+
 .select:after {
   content: "";
   display: block;
@@ -483,6 +488,63 @@ header {
   background-image: url(./img/select.svg);
 }
 
+@-webkit-keyframes order {
+  0% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+  10% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+  17% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+  33% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+  45% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+
+@keyframes order {
+  0% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+  10% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+  17% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+  33% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+  45% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
 .top-cart {
   height: 400px;
   background-image: url(img/topcart.jpg);
@@ -667,6 +729,8 @@ header {
   border: 1px solid #040404;
 }
 .cart__form-button {
+  -webkit-animation: order 2s ease 0s infinite normal forwards;
+          animation: order 2s ease 0s infinite normal forwards;
   transition: all 0.3s;
   font-family: "Montserrat";
   font-style: normal;
