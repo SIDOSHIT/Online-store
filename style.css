@@ -430,6 +430,10 @@ header {
   color: #000000;
 }
 
+.breadcrumbs__text:hover {
+  text-decoration: underline;
+}
+
 .breadcrumbs__item:not(:last-child)::after {
   content: "/";
   padding-left: 8px;
